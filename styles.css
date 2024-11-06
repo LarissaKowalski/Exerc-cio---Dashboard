@@ -159,6 +159,19 @@ main {
     justify-content: center;
     padding: 10px;
     transition: transform 0.3s ease;
+    text-align: center; /* Centraliza o texto dentro do card */
+}
+
+.card h3 {
+    margin: 0 0 10px; /* Adiciona espaçamento abaixo do título */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 14px;
+    color: #333; /* Cor mais escura para o texto do parágrafo */
+    margin: 0;
 }
 
 .card:hover {
