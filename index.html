@@ -5,88 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
     <link rel="stylesheet" href="styles.css" />
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <!-- Cabeçalho Fixo -->
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Relatórios</a></li>
-          <li><a href="#">Configurações</a></li>
-        </ul>
-        <!-- Ícone de Notificações -->
-        <div class="notification">
-          <img src="icon-notification.png" alt="Notificações" />
-          <span class="badge">3</span>
-        </div>
-      </nav>
-    </header>
-
-    <aside>
-      <ul>
-        <li>
-          <a href="#"
-            ><img src="icon-dashboard.png" alt="Dashboard" /> Dashboard</a
-          >
-        </li>
-        <li>
-          <a href="#"><img src="icon-users.png" alt="Usuários" /> Usuários</a>
-        </li>
-        <li>
-          <a href="#"
-            ><img src="icon-settings.png" alt="Configurações" />
-            Configurações</a
-          >
-        </li>
-      </ul>
-    </aside>
-
-    <main>
-        <!-- Cards de Estatísticas -->
-        <section class="cards">
-            <div class="card">
-                <h3>Card 1</h3>
-                <p>Descrição do Card 1</p>
-            </div>
-            <div class="card">
-                <h3>Card 2</h3>
-                <p>Descrição do Card 2</p>
-            </div>
-            <div class="card">
-                <h3>Card 3</h3>
-                <p>Descrição do Card 3</p>
-            </div>
-            <div class="card">
-                <h3>Card 4</h3>
-                <p>Descrição do Card 4</p>
-            </div>
-        </section>
-    
-        <!-- Lista de Atividades Recentes -->
-        <section class="activities">
-            <h2>Atividades Recentes</h2>
-            <ul>
-                <li class="activity">
-                    Atividade 1 <span class="status success"></span>
-                </li>
-                <li class="activity">
-                    Atividade 2 <span class="status pending"></span>
-                </li>
-                <li class="activity">
-                    Atividade 3 <span class="status error"></span>
-                </li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-      <div class="footer-nav">
-        <a href="#">Política de Privacidade</a>
-        <a href="#">Termos de Serviço</a>
-        <a href="#">Ajuda</a>
-      </div>
-      <p>&copy; 2024 Sua Empresa. Todos os direitos reservados.</p>
-    </footer>
+      <!-- Cabeçalho Fixo -->
+      <header>
+          <nav aria-label="Menu principal">
+              <ul>
+                  <li><a href="#">Início</a></li>
+                  <li><a href="#">Relatórios</a></li>
+                  <li><a href="#">Configurações</a></li>
+              </ul>
+              <!-- Ícone de Notificações -->
+              <div class="notification">
+                  <img src="assets/imagem4.jpeg" alt="Notificações">
+                  <span class="badge">3</span>
+              </div>
+          </nav>
+      </header>
+  
+      <!-- Menu Lateral -->
+      <aside>
+          <ul>
+              <li><a href="#"><img src="assets/imagem1.png"Dashboard"> Dashboard</a></li>
+              <li><a href="#"><img src="assets/imagem2.png" alt="Usuários"> Usuários</a></li>
+              <li><a href="#"><img src="assets/imagem3.png" alt="Configurações"> Configurações</a></li>
+          </ul>
+      </aside>
+  
+      <!-- Conteúdo Principal -->
+      <main>
+          <!-- Cards de Estatísticas -->
+          <section class="cards">
+              <h2>Estatísticas Gerais</h2>
+              <div class="card">
+                  <h3>Visitas ao Site </h3>
+                  <p>Total de visitas no último mês. Número crescente de acessos de diferentes regiões</p>
+              </div>
+              <div class="card">
+                  <h3> Vendas do Mês</h3>
+                  <p>Total de vendas realizadas este mês, com comparação em 
+                    relação ao mês anterior. Crescimento de 15%</p>
+              </div>
+              <div class="card">
+                  <h3>Usuários Ativos</h3>
+                  <p>Número de usuários que realizaram login nas últimas 24 horas. Atualização em tempo real</p>
+              </div>
+              <div class="card">
+                  <h3>Taxa de Conversão</h3>
+                  <p>Taxa de conversão de visitantes para clientes. Melhoria de 10% em relação ao último trimestre.</p>
+              </div>
+          </section>
+  
+          <!-- Lista de Atividades Recentes -->
+          <section class="activities">
+              <h2>Atividades Recentes</h2>
+              <ul>
+                  <li class="activity"> Atividade 1 - Revisão de Código: Revisão do código da funcionalidade java. Prazo de conclusão até amanhã, 17:00. <span class="status success"></span></li>
+                  <li class="activity">Atividade 2 - Atividade de Implementação de Funcionalidade: Desenvolver a funcionalidade inclusão para o painel de controle. Tempo estimado: 3 horas. <span class="status pending"></span></li>
+                  <li class="activity">Atividade 3  - Atividade de Testes de Qualidade: Realizar testes de qualidade na nova versão do aplicativo. Prazo: até sexta-feira<span class="status error"></span></li>
+                  <li class="activity">Atividade 4  - Atividade de Reunião de Planejamento: Reunião para discutir as prioridades do próximo sprint. Agendada para hoje às 14:00<span class="status error"></span></li>
+                  <li class="activity">Atividade 5  - Atividade de Análise de Feedback de Usuários: Revisar os feedbacks dos usuários sobre a última atualização. Iniciar na próxima segunda-feira.<span class="status error"></span></li>
+                  <li class="activity">Atividade 6 - Atividade de Design de Interface: Criar novas telas para o aplicativo. Entregar wireframes até quinta-feira<span class="status error"></span></li>
+                </ul>
+          </section>
+      </main>
+  
+      <!-- Rodapé -->
+      <footer>
+          <div class="footer-nav">
+              <a href="#">Política de Privacidade</a>
+              <a href="#">Termos de Serviço</a>
+              <a href="#">Ajuda</a>
+          </div>
+          <p>&copy; 2024 Empresa Trabalho. Todos os direitos reservados.</p>
+      </footer>
+  
+      <!-- Script JS -->
+      <script src="script.js"></script>
   </body>
 </html>
